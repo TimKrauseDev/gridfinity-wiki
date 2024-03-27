@@ -3,6 +3,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 import { ThemeConfig } from '@docusaurus/types';
 
 const themeConfig: ThemeConfig = {
+  defaultMode: 'dark',
+  disableSwitch: true,
   image: 'img/docusaurus-social-card.jpg',
   navbar: {
     title: 'Gridfinity Wiki',
@@ -68,7 +70,7 @@ const themeConfig: ThemeConfig = {
         ],
       },
     ],
-    copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+    copyright: `Copyright © ${new Date().getFullYear()} Gridfinity Wiki. Built with Docusaurus.`,
   },
   prism: {
     theme: prismThemes.github,
