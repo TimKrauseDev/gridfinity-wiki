@@ -23,6 +23,14 @@ const themeConfig: ThemeConfig = {
         label: 'Parts Library',
       },
       {
+        href: '/specifications',
+        label: 'Specifications'
+      },
+      {
+        href: '/mitlicense',
+        label: 'MIT License'
+      },
+      {
         href: 'https://github.com/TimKrauseDev/gridfinity-wiki',
         label: 'GitHub',
         position: 'right',
