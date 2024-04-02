@@ -6,9 +6,9 @@ const GridWrapper: React.FC<SettingsProviderProps> = ({children}) =>  {
   return (
     <GridProvider
       breakpoints={{
-        s: 768,
-        m: 1279,
-        l: 1679
+        s: 996,
+        m: 1200,
+        l: 1700
       }}
       rowGap={{
         s: '15px',
