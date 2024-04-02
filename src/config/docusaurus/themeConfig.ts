@@ -72,7 +72,7 @@ const themeConfig: ThemeConfig = {
         ],
       },
     ],
-    copyright: `Copyright © ${new Date().getFullYear()} Gridfinity Wiki. Built with Docusaurus.`,
+    copyright: `Copyright © ${new Date().getFullYear()} Gridfinity Wiki.`,
   },
   prism: {
     theme: prismThemes.github,
