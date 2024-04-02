@@ -3,9 +3,12 @@ import type * as Preset from '@docusaurus/preset-classic';
 import { ThemeConfig } from '@docusaurus/types';
 
 const themeConfig: ThemeConfig = {
-  defaultMode: 'dark',
-  disableSwitch: true,
   image: 'img/docusaurus-social-card.jpg',
+  colorMode: {
+    defaultMode: 'dark',
+    disableSwitch: true,
+    respectPrefersColorScheme: false,
+  },
   navbar: {
     title: 'Gridfinity Wiki',
     logo: {
@@ -15,13 +18,12 @@ const themeConfig: ThemeConfig = {
     items: [
       {
         type: 'docSidebar',
-        sidebarId: 'tutorialSidebar',
+        sidebarId: 'docSidebar',
         position: 'left',
-        label: 'Tutorial',
+        label: 'Parts Library',
       },
-      {to: '/blog', label: 'Blog', position: 'left'},
       {
-        href: 'https://github.com/facebook/docusaurus',
+        href: 'https://github.com/TimKrauseDev/gridfinity-wiki',
         label: 'GitHub',
         position: 'right',
       },

@@ -8,8 +8,9 @@ const config: DeepPartial<PresetConfig[]> = [
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.ts',
+          sidebarPath: 'src/config/docusaurus/sidebars.ts',
           editUrl: 'https://github.com/TimKrauseDev/wiki/edit/main/',
+          routeBasePath: '/parts-library'
         },
         blog: {
           showReadingTime: true,
