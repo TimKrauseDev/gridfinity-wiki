@@ -19,11 +19,6 @@ const linkItems: LinkProps[] = [
     Svg: require('@site/static/img/home-misc.svg').default,
     linkTo: '/specifications',
   },
-  {
-    title: 'MIT License',
-    Svg: require('@site/static/img/home-misc.svg').default,
-    linkTo: 'license',
-  },
 ]
 
 const Home = (): JSX.Element => {

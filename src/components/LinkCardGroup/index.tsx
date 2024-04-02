@@ -10,6 +10,7 @@ type PropType = {
 const LinkCardGroup = ({ linkItems }: PropType): JSX.Element => {
   return (
     <Grid>
+      <Cell cols={2} colsS={0} ><span /></Cell>
       {
         linkItems.map( (item, key) => {
           return (
@@ -23,6 +24,7 @@ const LinkCardGroup = ({ linkItems }: PropType): JSX.Element => {
           );
         })
       }
+      <Cell cols={2} colsS={0} ><span /></Cell>
     </Grid>
   );
 
