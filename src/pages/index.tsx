@@ -12,17 +12,17 @@ const linkItems: LinkProps[] = [
   {
     title: 'Parts Library',
     Svg: require('@site/static/img/home-misc.svg').default,
-    linkTo: '/docs/intro',
+    linkTo: '/parts-library/getting-started',
   },
   {
     title: 'Technical Specifications',
     Svg: require('@site/static/img/home-misc.svg').default,
-    linkTo: '/docs/intro',
+    linkTo: '/specifications',
   },
   {
     title: 'MIT License',
     Svg: require('@site/static/img/home-misc.svg').default,
-    linkTo: '/docs/intro',
+    linkTo: 'license',
   },
 ]
 
@@ -49,7 +49,7 @@ const Home = (): JSX.Element => {
             <Spacer height={2} />
             <LinkCardGroup linkItems={linkItems} />
           </div>
-          <Spacer height={4} />
+          <Spacer height={8} />
         </main>
       </Layout>
     </GridWrapper>
