@@ -44,7 +44,7 @@ const Specifications = (): JSX.Element =>  {
               </Cell>
             </Grid>
           </div>
-          <Spacer height={4} />
+          <Spacer height={8} />
         </main>
       </Layout>
     </GridWrapper>
