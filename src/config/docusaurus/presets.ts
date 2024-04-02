@@ -12,10 +12,6 @@ const config: DeepPartial<PresetConfig[]> = [
           editUrl: 'https://github.com/TimKrauseDev/wiki/edit/main/',
           routeBasePath: '/parts-library'
         },
-        blog: {
-          showReadingTime: true,
-          editUrl: 'https://github.com/TimKrauseDev/wiki/edit/main/',
-        },
         theme: {
           customCss: './src/styles/custom.scss',
         },
