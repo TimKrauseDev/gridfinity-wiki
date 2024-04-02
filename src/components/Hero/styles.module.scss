@@ -1,0 +1,15 @@
+@import '@site/src/styles/colors.scss';
+
+.heroBanner {
+  padding: 1rem;
+  border-radius: 20px;
+  border: 2px solid $color-primary;
+  background: linear-gradient(
+    135deg,
+    rgba($color-black, .5) 0%,
+    rgba($color-primary, .5) 100%
+  );
+  text-align: center;
+
+  h1 { font-size: 5rem; }
+}
