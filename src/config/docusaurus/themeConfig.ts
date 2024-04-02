@@ -27,7 +27,7 @@ const themeConfig: ThemeConfig = {
         label: 'Specifications'
       },
       {
-        href: '/mitlicense',
+        href: '/license',
         label: 'MIT License'
       },
       {
@@ -41,41 +41,32 @@ const themeConfig: ThemeConfig = {
     style: 'dark',
     links: [
       {
-        title: 'Docs',
+        title: 'Zack Freedman',
         items: [
           {
-            label: 'Tutorial',
-            to: '/docs/intro',
-          },
-        ],
-      },
-      {
-        title: 'Community',
-        items: [
-          {
-            label: 'Stack Overflow',
-            href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-          },
-          {
-            label: 'Discord',
-            href: 'https://discordapp.com/invite/docusaurus',
+            label: 'Discord (VoidStarLabs)',
+            href: 'https://discord.com/invite/voidstarlab',
           },
           {
             label: 'Twitter',
-            href: 'https://twitter.com/docusaurus',
+            href: 'https://twitter.com/zackfreedman',
+          },
+          {
+            label: 'Twitch',
+            href: 'https://www.twitch.tv/zackfreedman',
+          },
+          {
+            label: 'Patreon',
+            href: 'https://www.patreon.com/zackfreedman',
           },
         ],
       },
       {
-        title: 'More',
+        title: 'This Project',
         items: [
           {
-            label: 'Blog',
-            to: '/blog',
-          },
-          {
             label: 'GitHub',
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/TimKrauseDev/gridfinity-wiki',
           },
         ],
       },
