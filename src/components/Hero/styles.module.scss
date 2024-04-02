@@ -1,4 +1,6 @@
 @import '@site/src/styles/colors.scss';
+@import '@site/src/styles/breakpoints.scss';
+@import '@site/src/styles/mixins.scss';
 
 .heroBanner {
   padding: 1rem;
@@ -11,5 +13,8 @@
   );
   text-align: center;
 
-  h1 { font-size: 5rem; }
+  h1 {
+    font-size: 5rem;
+    @include responsiveBelow($bp-m) { font-size: 3rem; }
+  }
 }
