@@ -1,23 +1,17 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
+@import '@site/src/styles/colors.scss';
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 1rem;
+  border-radius: 20px;
+  border: 2px solid $color-primary;
+  background: linear-gradient(
+    135deg,
+    rgba($color-black, .5) 0%,
+    rgba($color-primary, .5) 100%
+  );
   text-align: center;
-  position: relative;
-  overflow: hidden;
-}
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
+  h1 { font-size: 5rem; }
+  .lead { font-size: 2rem;}
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
