@@ -9,7 +9,7 @@ const config: DeepPartial<PresetConfig[]> = [
       {
         docs: {
           sidebarPath: 'src/config/docusaurus/sidebars.ts',
-          editUrl: 'https://github.com/TimKrauseDev/wiki/edit/main/',
+          editUrl: 'https://github.com/TimKrauseDev/gridfinity-wiki/edit/main/',
           routeBasePath: '/parts-library'
         },
         theme: {
